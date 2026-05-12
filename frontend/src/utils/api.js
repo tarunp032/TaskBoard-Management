@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: "https://taskboard-management-1.onrender.com/api"
+  baseURL: "http://localhost:5000/api"
 });
 
 // Add token to every request
